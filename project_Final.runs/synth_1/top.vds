@@ -1,0 +1,352 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun May  9 01:31:12 2021
+# Process ID: 18640
+# Current directory: C:/Users/Lai/Desktop/FinalProject/project_Final.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/Lai/Desktop/FinalProject/project_Final.runs/synth_1/top.vds
+# Journal file: C:/Users/Lai/Desktop/FinalProject/project_Final.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 17892
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1019.617 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/Lai/Desktop/abc/top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'reg_pc' [C:/Users/Lai/Desktop/abc/top.v:81]
+INFO: [Synth 8-6155] done synthesizing module 'reg_pc' (1#1) [C:/Users/Lai/Desktop/abc/top.v:81]
+INFO: [Synth 8-6157] synthesizing module 'im' [C:/Users/Lai/Desktop/abc/top.v:141]
+INFO: [Synth 8-6155] done synthesizing module 'im' (2#1) [C:/Users/Lai/Desktop/abc/top.v:141]
+INFO: [Synth 8-6157] synthesizing module 'reg_if_id' [C:/Users/Lai/Desktop/abc/top.v:161]
+INFO: [Synth 8-6155] done synthesizing module 'reg_if_id' (3#1) [C:/Users/Lai/Desktop/abc/top.v:161]
+INFO: [Synth 8-6157] synthesizing module 'control' [C:/Users/Lai/Desktop/abc/top.v:178]
+INFO: [Synth 8-6155] done synthesizing module 'control' (4#1) [C:/Users/Lai/Desktop/abc/top.v:178]
+INFO: [Synth 8-6157] synthesizing module 'mux1' [C:/Users/Lai/Desktop/abc/top.v:250]
+INFO: [Synth 8-6155] done synthesizing module 'mux1' (5#1) [C:/Users/Lai/Desktop/abc/top.v:250]
+INFO: [Synth 8-6157] synthesizing module 'sign_extend' [C:/Users/Lai/Desktop/abc/top.v:267]
+INFO: [Synth 8-6155] done synthesizing module 'sign_extend' (6#1) [C:/Users/Lai/Desktop/abc/top.v:267]
+INFO: [Synth 8-6157] synthesizing module 'register_file' [C:/Users/Lai/Desktop/abc/top.v:277]
+INFO: [Synth 8-6155] done synthesizing module 'register_file' (7#1) [C:/Users/Lai/Desktop/abc/top.v:277]
+INFO: [Synth 8-6157] synthesizing module 'reg_id_exe' [C:/Users/Lai/Desktop/abc/top.v:313]
+INFO: [Synth 8-6155] done synthesizing module 'reg_id_exe' (8#1) [C:/Users/Lai/Desktop/abc/top.v:313]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [C:/Users/Lai/Desktop/abc/top.v:346]
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (9#1) [C:/Users/Lai/Desktop/abc/top.v:346]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/Lai/Desktop/abc/top.v:363]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (10#1) [C:/Users/Lai/Desktop/abc/top.v:363]
+INFO: [Synth 8-6157] synthesizing module 'reg_exe_mem' [C:/Users/Lai/Desktop/abc/top.v:396]
+INFO: [Synth 8-6155] done synthesizing module 'reg_exe_mem' (11#1) [C:/Users/Lai/Desktop/abc/top.v:396]
+INFO: [Synth 8-6157] synthesizing module 'data_mem' [C:/Users/Lai/Desktop/abc/top.v:420]
+INFO: [Synth 8-6155] done synthesizing module 'data_mem' (12#1) [C:/Users/Lai/Desktop/abc/top.v:420]
+INFO: [Synth 8-6157] synthesizing module 'reg_mem_wb' [C:/Users/Lai/Desktop/abc/top.v:454]
+INFO: [Synth 8-6155] done synthesizing module 'reg_mem_wb' (13#1) [C:/Users/Lai/Desktop/abc/top.v:454]
+INFO: [Synth 8-6157] synthesizing module 'mux3' [C:/Users/Lai/Desktop/abc/top.v:477]
+INFO: [Synth 8-6155] done synthesizing module 'mux3' (14#1) [C:/Users/Lai/Desktop/abc/top.v:477]
+INFO: [Synth 8-6157] synthesizing module 'hdu' [C:/Users/Lai/Desktop/abc/top.v:110]
+INFO: [Synth 8-6155] done synthesizing module 'hdu' (15#1) [C:/Users/Lai/Desktop/abc/top.v:110]
+INFO: [Synth 8-6155] done synthesizing module 'top' (16#1) [C:/Users/Lai/Desktop/abc/top.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1124.988 ; gain = 105.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1124.988 ; gain = 105.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1124.988 ; gain = 105.371
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.547 . Memory (MB): peak = 1124.988 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Lai/Desktop/abc/ZYBO_MASTER.xdc]
+Finished Parsing XDC File [C:/Users/Lai/Desktop/abc/ZYBO_MASTER.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Lai/Desktop/abc/ZYBO_MASTER.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1279.008 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1279.008 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1279.008 ; gain = 259.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1279.008 ; gain = 259.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1279.008 ; gain = 259.391
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'pc_reg' [C:/Users/Lai/Desktop/abc/top.v:91]
+WARNING: [Synth 8-327] inferring latch for variable 'led_reg' [C:/Users/Lai/Desktop/abc/top.v:92]
+WARNING: [Synth 8-327] inferring latch for variable 'regrt_reg' [C:/Users/Lai/Desktop/abc/top.v:188]
+WARNING: [Synth 8-327] inferring latch for variable 'wreg_reg' [C:/Users/Lai/Desktop/abc/top.v:189]
+WARNING: [Synth 8-327] inferring latch for variable 'wmem_reg' [C:/Users/Lai/Desktop/abc/top.v:191]
+WARNING: [Synth 8-327] inferring latch for variable 'aluc_reg' [C:/Users/Lai/Desktop/abc/top.v:193]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[31]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[30]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[29]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[28]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[27]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[26]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[25]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[24]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[23]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[22]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[21]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[20]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[19]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[18]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[17]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[16]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[15]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[14]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[13]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[12]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[11]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[10]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[9]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[8]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[7]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[6]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[5]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[4]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[3]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[2]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[1]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'rf_reg[0]' [C:/Users/Lai/Desktop/abc/top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'balu_reg' [C:/Users/Lai/Desktop/abc/top.v:354]
+WARNING: [Synth 8-327] inferring latch for variable 'ralu_reg' [C:/Users/Lai/Desktop/abc/top.v:372]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[128]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[127]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[126]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[125]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[124]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[123]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[122]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[121]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[120]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[119]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[118]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[117]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[116]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[115]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[114]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[113]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[112]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[111]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[110]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[109]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[108]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[107]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[106]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[105]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[104]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[103]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[102]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[101]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[100]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[99]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[98]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[97]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[96]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[95]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[94]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[93]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[92]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[91]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[90]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[89]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[88]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[87]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[86]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[85]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[84]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[83]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[82]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[81]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[80]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[79]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[78]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[77]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[76]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[75]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[74]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[73]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[72]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[71]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[70]' [C:/Users/Lai/Desktop/abc/top.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'dm_reg[69]' [C:/Users/Lai/Desktop/abc/top.v:443]
+INFO: [Common 17-14] Message 'Synth 8-327' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1279.008 ; gain = 259.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
+	   3 Input   32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 8     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   6 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 3     
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 2     
+	   5 Input    3 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 53    
+	   5 Input    1 Bit        Muxes := 2     
+	   6 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'i_0/program_counter/led_reg/Q' [C:/Users/Lai/Desktop/abc/top.v:104]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/Lai/Desktop/abc/top.v:104]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Lai/Desktop/abc/top.v:104]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:42 ; elapsed = 00:02:00 . Memory (MB): peak = 1279.008 ; gain = 259.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:50 ; elapsed = 00:02:09 . Memory (MB): peak = 1279.008 ; gain = 259.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:51 ; elapsed = 00:02:10 . Memory (MB): peak = 1279.008 ; gain = 259.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:51 ; elapsed = 00:02:10 . Memory (MB): peak = 1279.008 ; gain = 259.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:54 ; elapsed = 00:02:13 . Memory (MB): peak = 1279.008 ; gain = 259.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:54 ; elapsed = 00:02:13 . Memory (MB): peak = 1279.008 ; gain = 259.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:54 ; elapsed = 00:02:13 . Memory (MB): peak = 1279.008 ; gain = 259.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:54 ; elapsed = 00:02:13 . Memory (MB): peak = 1279.008 ; gain = 259.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:54 ; elapsed = 00:02:13 . Memory (MB): peak = 1279.008 ; gain = 259.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:54 ; elapsed = 00:02:13 . Memory (MB): peak = 1279.008 ; gain = 259.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |OBUF |     1|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:54 ; elapsed = 00:02:13 . Memory (MB): peak = 1279.008 ; gain = 259.391
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 3 critical warnings and 170 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:37 ; elapsed = 00:02:06 . Memory (MB): peak = 1279.008 ; gain = 105.371
+Synthesis Optimization Complete : Time (s): cpu = 00:01:54 ; elapsed = 00:02:14 . Memory (MB): peak = 1279.008 ; gain = 259.391
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1279.008 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1279.008 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+46 Infos, 100 Warnings, 3 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:59 ; elapsed = 00:02:20 . Memory (MB): peak = 1279.008 ; gain = 259.391
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Lai/Desktop/FinalProject/project_Final.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun May  9 01:33:37 2021...
